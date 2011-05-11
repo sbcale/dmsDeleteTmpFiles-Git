@@ -161,9 +161,6 @@ Module modMain
                 foundDeleteDir = False
 
                 ' check for 'falconPdfPublisher' in path before adding to array
-                '            If InStr(1, deleteFileSpec, "falconPdfPublisher", vbTextCompare) = 0 Then GoTo exitOut
-
-                ' check for 'falconPdfPublisher' in path before adding to array
                 If InStr(deleteFileSpec, "falconPdfPublisher", CompareMethod.Text) > 0 Then foundDeleteDir = True
                 If InStr(deleteFileSpec, "falconPlot", CompareMethod.Text) > 0 Then foundDeleteDir = True
                 If InStr(deleteFileSpec, "falconWeb", CompareMethod.Text) > 0 Then foundDeleteDir = True
