@@ -50,7 +50,11 @@ Module modMain
 
         ' get command line
         strCommandLine = My.Application.CommandLineArgs(0).ToString.Trim
+<<<<<<< HEAD
         ' hardcoded temp sbc-tsa take credit.
+=======
+        ' hardcoded temp SBC Merge test
+>>>>>>> c5c92ec8b4d34c75b0e648f440cc8d67c28415bd
         'strCommandLine = "C:\Inetpub\wwwroot\publish\PDF\*.pdf;30"
 
         ' check command line
@@ -153,15 +157,11 @@ Module modMain
 
                 If InStr(deleteFileSpec, "%appPath%", CompareMethod.Text) > 0 Then
                     ' replace
-                    'deleteFileSpec = Replace(deleteFileSpec, "%appPath%", appPath, , , CompareMethod.Text)
                     deleteFileSpec = deleteFileSpec.Replace("%appPath%", appPath).Trim
                 End If
 
                 ' set default false
                 foundDeleteDir = False
-
-                ' check for 'falconPdfPublisher' in path before adding to array
-                '            If InStr(1, deleteFileSpec, "falconPdfPublisher", vbTextCompare) = 0 Then GoTo exitOut
 
                 ' check for 'falconPdfPublisher' in path before adding to array
                 If InStr(deleteFileSpec, "falconPdfPublisher", CompareMethod.Text) > 0 Then foundDeleteDir = True
