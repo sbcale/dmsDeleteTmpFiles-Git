@@ -50,11 +50,8 @@ Module modMain
 
         ' get command line
         strCommandLine = My.Application.CommandLineArgs(0).ToString.Trim
-<<<<<<< HEAD
-        ' hardcoded temp sbc-tsa take credit.
-=======
+
         ' hardcoded temp SBC Merge test
->>>>>>> c5c92ec8b4d34c75b0e648f440cc8d67c28415bd
         'strCommandLine = "C:\Inetpub\wwwroot\publish\PDF\*.pdf;30"
 
         ' check command line
