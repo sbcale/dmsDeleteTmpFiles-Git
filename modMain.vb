@@ -299,9 +299,9 @@ Module modMain
 
         ' write time date stamp
         Call writeToDebug("")
-        Call writeToDebug("***********************************************************")
+        Call writeToDebug("************************************************************")
         Call writeToDebug("* Running dmsDeleteTmpFiles: " & Now)
-        Call writeToDebug("***********************************************************")
+        Call writeToDebug("************************************************************")
 
         ' return
         getConfigDir = configDir & "dmsDeleteTmpFiles.cfg"
