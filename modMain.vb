@@ -43,6 +43,7 @@ Module modMain
 
         On Error Resume Next
 
+        ' init arrays
         ReDim dfsArr(0 To 0)
         ReDim dfsExt(0 To 0)
         ReDim agedMinArr(0 To 0)
