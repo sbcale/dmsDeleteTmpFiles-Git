@@ -50,7 +50,7 @@ Module modMain
 
         ' get command line
         strCommandLine = My.Application.CommandLineArgs(0).ToString.Trim
-        ' hardcoded temp
+        ' hardcoded temp sbc-tsa take credit.
         'strCommandLine = "C:\Inetpub\wwwroot\publish\PDF\*.pdf;30"
 
         ' check command line
