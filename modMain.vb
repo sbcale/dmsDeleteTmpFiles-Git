@@ -153,7 +153,6 @@ Module modMain
 
                 If InStr(deleteFileSpec, "%appPath%", CompareMethod.Text) > 0 Then
                     ' replace
-                    'deleteFileSpec = Replace(deleteFileSpec, "%appPath%", appPath, , , CompareMethod.Text)
                     deleteFileSpec = deleteFileSpec.Replace("%appPath%", appPath).Trim
                 End If
 
