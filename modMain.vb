@@ -51,7 +51,7 @@ Module modMain
         ' get command line
         strCommandLine = My.Application.CommandLineArgs(0).ToString.Trim
 
-        ' hardcoded temp SBC Merge test
+        ' hardcoded temp SBC Merge test change
         'strCommandLine = "C:\Inetpub\wwwroot\publish\PDF\*.pdf;30"
 
         ' check command line
