@@ -49,6 +49,7 @@ Module modMain
         ReDim agedMinArr(0 To 0)
 
         ' get command line into string
+
         strCommandLine = My.Application.CommandLineArgs(0).ToString.Trim
 
         ' hardcoded temp SBC Merge test change
