@@ -2,7 +2,7 @@
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <MyType>Console</MyType>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7AC84E8E-5C74-43B9-83BD-D1B033341448}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -91,6 +91,7 @@
     <Compile Include="modMain.vb">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="testAddMod.vb" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="trashcan_full.ico" />
