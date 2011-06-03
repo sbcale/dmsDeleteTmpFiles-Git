@@ -48,10 +48,10 @@ Module modMain
         ReDim dfsExt(0 To 0)
         ReDim agedMinArr(0 To 0)
 
-        ' get command line
-        strCommandLine = My.Application.CommandLineArgs(0).ToString.Trim
+        ' get command line into string
 
-        ' hardcoded temp SBC Merge test take 2
+        strCommandLine = My.Application.CommandLineArgs(0).ToString.Trim
+        '"Update comments merge test 2"
         'strCommandLine = "C:\Inetpub\wwwroot\publish\PDF\*.pdf;30"
 
         ' check command line
